@@ -12,7 +12,11 @@ dependencies {
 }
 
 application {
-    mainClassName = 'Lab10'
+    mainClassName = 'GameDriver'
+}
+
+run {
+    standardInput = System.in
 }
 
 test {
