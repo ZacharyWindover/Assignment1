@@ -2,11 +2,12 @@
 
 ## Identification
 
-Your name:  INSERT YOUR NAME HERE
-Your teammates name:  INSERT YOUR TEAMMATES NAME HERE (if you have one)
+Your name:  `INSERT YOUR NAME HERE`
+
+Your teammates name:  `INSERT YOUR TEAMMATES NAME HERE (if you have one)`
 
 ## Collaboration Policy
-Students are encouraged to work in teams of two students for this assignment. Students can work alone, if they prefer.  Teams larger than 2 are strongly discouraged, but may be allowed (with prior permission of the instructor), provided that the team agrees to do proportionally more work.
+Students are encouraged to work in teams of two students for this assignment. Students can work alone, if they prefer.  Teams larger than 2 are not permitted.
 
 ## Overview
 For this assignment, we will create a simple battle system for a JRPG style game.  The battle system will simulate a battle between a human player and a CPU player.  Each player will have their 'monster' that will battle one another using a selection of moves.
