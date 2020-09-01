@@ -131,10 +131,10 @@ If both monsters are still alive when the round has finished, the process repeat
 Determine how all of your classes are related, and create a complete UML class diagram representing your class structure.  Don't forget to include the appropriate relationships between the classes.
 
 Note:  You can use any tool you want to generate UML.  If you don't know what to use, here are a few suggestions:
-•	Violet (http://alexdp.free.fr/violetumleditor/page.php) – a free, open source UML editor
-•	Dia (https://wiki.gnome.org/action/show/Apps/Dia?action=show&redirect=Dia) – a free, open-source diagramming tool (including UML)
-•	UMLet (http://www.umlet.com/) - a free UML editor
-•	yUML (http://yuml.me/) - a free-to-use UML editor (with commercial offerings)
+- Violet (http://alexdp.free.fr/violetumleditor/page.php) – a free, open source UML editor
+- Dia (https://wiki.gnome.org/action/show/Apps/Dia?action=show&redirect=Dia) – a free, open-source diagramming tool (including UML)
+- UMLet (http://www.umlet.com/) - a free UML editor
+- yUML (http://yuml.me/) - a free-to-use UML editor (with commercial offerings)
 
 Export your diagram to an image (`.png`), before you submit, to ensure that the instructor and/or TA can open the file easily.
 
