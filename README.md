@@ -136,7 +136,7 @@ Note:  You can use any tool you want to generate UML.  If you don't know what to
 - UMLet (http://www.umlet.com/) - a free UML editor
 - yUML (http://yuml.me/) - a free-to-use UML editor (with commercial offerings)
 
-Export your diagram to an image (`.png`), before you submit, to ensure that the instructor and/or TA can open the file easily.
+Export your diagram to an image (`part2.png`), before you submit, to ensure that the instructor and/or TA can open the file easily.
 
 _**Hint:**  This part is likely just a one-page diagram._
 
