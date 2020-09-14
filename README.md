@@ -30,7 +30,7 @@ public class GameDriver {
 		Move move2 = new Move("Tackle", "Normal", 50, 1.0f);
 		Move move3 = new Move("Take Down", "Normal", 90, 0.85f);
 		Move move4 = new Move("Razor Leaf", "Grass", 55, 0.95f);
-		Monster monster = new Monster("Bulbasaur", "Grass", 240, 45, 49, 49, 
+		Monster monster = new Monster("Bulbasaur", "Grass", 240, 45, 49, 49,
                                       move1, move2, move3, move4);
 		Player player = new HumanPlayer(monster);
 
@@ -38,24 +38,24 @@ public class GameDriver {
 		move2 = new Move("Ember", "Fire", 40, 1.0f);
 		move3 = new Move("Peck", "Flying", 35, 1.0f);
 		move4 = new Move("Fire Spin", "Fire", 35, 0.85f);
-		monster = new Monster("Torchic", "Fire", 240, 45, 60, 40, 
+		monster = new Monster("Torchic", "Fire", 240, 45, 60, 40,
                               move1, move2, move3, move4);
 		Player enemy = new CPUPlayer(monster);
 
 		while ((!player.hasLost()) && (!enemy.hasLost())) {
 			// print both monsters' HP
 			System.out.println("");
-			System.out.printf("%s has %d HP\n", 
-                                    player.getMonster().getName(), 
+			System.out.printf("%s has %d HP\n",
+                                    player.getMonster().getName(),
                                     player.getMonster().getHP());
 			System.out.printf("%s has %d HP\n",                
-                                    enemy.getMonster().getName(), 
+                                    enemy.getMonster().getName(),
                                     enemy.getMonster().getHP());
-			
+
 			// decide the next move
 			int playerMove = player.chooseMove();
 			int enemyMove = enemy.chooseMove();
-			
+
 			// execute the next move
 			if (player.isFasterThan(enemy)) {
 				player.attack(enemy, playerMove);
@@ -69,12 +69,12 @@ public class GameDriver {
 				}
 			}
 		}
-		
+
 		if (player.hasLost()) {
-			System.out.printf("You and %s have lost the battle.\n", 
+			System.out.printf("You and %s have lost the battle.\n",
                                     player.getMonster().getName());
 		} else {
-			System.out.printf("You and %s are victorious!\n", 
+			System.out.printf("You and %s are victorious!\n",
                                     player.getMonster().getName());
 		}
 	}
@@ -118,7 +118,7 @@ Then, determine if the move will hit the defending monster.  Generate a random f
 Each move's attack is calculated using the following formula:
 
 ```
-damageDealth = attacking monster's attack stat +
+damageDealt = attacking monster's attack stat +
                attacking monster move's power -
                defending monster's defense stat
 ```
