@@ -148,9 +148,9 @@ Add some additional functionality of your choice to the battle system.  Be creat
 ### Part 1 (6.5 marks total)
 Value | Requirement
 ------|--------------------------------------------------------
-3.0/3.0 | Correct class definitions
-1.0/1.0 | Inclusion and correctness of Javadoc-style comments
-2.5/2.5 | Code style and quality (indentation, naming, commenting, best practices)
+3.0 | Correct class definitions
+1.0 | Inclusion and correctness of Javadoc-style comments
+2.5 | Code style and quality (indentation, naming, commenting, best practices)
 
 ### Part 2 (1.5 marks total)
 Value | Requirement
