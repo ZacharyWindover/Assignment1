@@ -143,6 +143,22 @@ _**Hint:**  This part is likely just a one-page diagram._
 ## Part 3
 Add some additional functionality of your choice to the battle system.  Be creative!  Choose something that is doable, but challenging enough to demonstrate the skills you have gained in this course.  You could implement an enemy monster AI, a graphical display, anything as long as it allows you to demonstrate several of the course concepts that we've learned so far.
 
+## Rubric
+
+### Part 1 (6.5 marks total)
+3.0/3.0 – Correct class definitions
+1.0/1.0 - Inclusion and correctness of Javadoc-style comments
+2.5/2.5 - Code style and quality (indentation, naming, commenting, best practices)
+
+### Part 2 (1.5 marks total)
+1.0/1.0 – UML syntax, correct representation of your program
+0.5/0.5 – The quality of your design (e.g. reduction of code duplication, improved readability)
+
+### Part 3 (2 marks total)
+Score   | Requirement
+--------|--------------------------------------------------------
+2.0/2.0 | The subjective evaluation of your enhancement/additions
+
 ## Compiling and Running Your Program
 To compile and run your program, use the following command:
 `gradle run -q --console=plain`
