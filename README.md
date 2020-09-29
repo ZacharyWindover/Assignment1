@@ -127,6 +127,60 @@ The calculated damage is then subtracted from the HP of the defending monster.  
 
 If both monsters are still alive when the round has finished, the process repeats.  When finished, the driver class will display a message determining if the human player has won or lost the battle.
 
+Sample output is given below:
+
+```
+Bulbasaur has 240 HP
+Torchic has 240 HP
+1. Vine Whip
+2. Tackle
+3. Take Down
+4. Razor Leaf
+Which move? 4
+Torchic uses Ember.
+Torchic hit for 51 points of damage.
+Bulbasaur uses Razor Leaf.
+Bulbasaur hit for 64 points of damage.
+
+Bulbasaur has 189 HP
+Torchic has 176 HP
+1. Vine Whip
+2. Tackle
+3. Take Down
+4. Razor Leaf
+Which move? 4
+Torchic uses Fire Spin.
+Torchic hit for 46 points of damage.
+Bulbasaur uses Razor Leaf.
+Bulbasaur hit for 64 points of damage.
+
+Bulbasaur has 143 HP
+Torchic has 112 HP
+1. Vine Whip
+2. Tackle
+3. Take Down
+4. Razor Leaf
+Which move? 4
+Torchic uses Peck.
+Torchic hit for 46 points of damage.
+Bulbasaur uses Razor Leaf.
+Bulbasaur hit for 64 points of damage.
+
+Bulbasaur has 97 HP
+Torchic has 48 HP
+1. Vine Whip
+2. Tackle
+3. Take Down
+4. Razor Leaf
+Which move? 4
+Torchic uses Ember.
+Torchic hit for 51 points of damage.
+Bulbasaur uses Razor Leaf.
+Bulbasaur hit for 64 points of damage.
+
+You and Bulbasaur are victorious!
+```
+
 ## Part 2
 Determine how all of your classes are related, and create a complete UML class diagram representing your class structure.  Don't forget to include the appropriate relationships between the classes.
 
