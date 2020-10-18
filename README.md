@@ -13,15 +13,15 @@ Students are encouraged to work in teams of two students for this assignment. St
 For this assignment, we will create a simple battle system for a JRPG style game.  The battle system will simulate a battle between a human player and a CPU player.  Each player will have their 'monster' that will battle one another using a selection of moves.
 
 _**Note:** Files already exist for the following classes:_
-- `src/main/java/GameDriver.java`
-- `src/main/java/Player.java`
-- `src/main/java/HumanPlayer.java`
-- `src/main/java/CPUPlayer.java`
-- `src/main/java/Monster.java`
-- `src/main/java/Move.java`
+- `part1/src/main/java/GameDriver.java`
+- `part1/src/main/java/Player.java`
+- `part1/src/main/java/HumanPlayer.java`
+- `part1/src/main/java/CPUPlayer.java`
+- `part1/src/main/java/Monster.java`
+- `part1/src/main/java/Move.java`
 
 ## Part 1
-Your classes should work given any configuration of players and monsters.  An example driver class (`GameDriver`) that tests the various classes that you will eventually implement has been provided, below:
+Your classes should work given any configuration of players and monsters.  An example driver class (`GameDriver`) has been provided, in the `part1` folder, that tests the various classes that you will eventually implement has been provided, below:
 
 ```
 public class GameDriver {
@@ -181,8 +181,14 @@ Bulbasaur hit for 64 points of damage.
 You and Bulbasaur are victorious!
 ```
 
+### Compiling and Running Your Program
+To compile and run your program, change directory into the `part1` directory, and use the following command:
+`gradle run -q --console=plain`
+
+_**Note:** The `-q` and `--console=plain` are to suppress the extra output that gradle normally prints when running a Java application._
+
 ## Part 2
-Determine how all of your classes are related, and create a complete UML class diagram representing your class structure.  Don't forget to include the appropriate relationships between the classes.
+Determine how all of your classes are related, and create a complete UML class diagram representing your class structure for every class in Part 1.  Don't forget to include the appropriate relationships between the classes.
 
 Note:  You can use any tool you want to generate UML.  If you don't know what to use, here are a few suggestions:
 - Violet (http://alexdp.free.fr/violetumleditor/page.php) – a free, open source UML editor
@@ -190,12 +196,19 @@ Note:  You can use any tool you want to generate UML.  If you don't know what to
 - UMLet (http://www.umlet.com/) - a free UML editor
 - yUML (http://yuml.me/) - a free-to-use UML editor (with commercial offerings)
 
-Export your diagram to an image (`part2.png`), before you submit, to ensure that the instructor and/or TA can open the file easily.
+Export your diagram to an image (`part2.png`), before you submit, to ensure that the instructor and/or TA can open the file easily.  Put this image in the root directory of this repository.
 
 _**Hint:**  This part is likely just a one-page diagram._
 
 ## Part 3
-Add some additional functionality of your choice to the battle system.  Be creative!  Choose something that is doable, but challenging enough to demonstrate the skills you have gained in this course.  You could implement an enemy monster AI, a graphical display, anything as long as it allows you to demonstrate several of the course concepts that we've learned so far.
+
+First, create a duplicate copy of your `part1` directory (after it is finished), called `part3`.  In this new `part3` folder, add some additional functionality of your choice to the battle system.  Be creative!  Choose something that is doable, but _challenging enough to demonstrate the skills you have gained in this course_.  You could implement an enemy monster AI, a graphical display, anything as long as it allows you to demonstrate several of the course concepts that we've learned so far.
+
+_**Note:**  You can modify any of the classes that you want for this part, but make sure that the `gradle run` command still runs your code properly.  The easiest way to do this is to not change the name or package of the class `GameDriver`, since the `build.gradle` file already runs the `main` method in this class._
+
+### Compiling and Running Your Program
+To compile and run your program, change directory into the `part3` directory, and use the following command:
+`gradle run -q --console=plain`
 
 ## Rubric
 
@@ -216,12 +229,6 @@ Value | Requirement
 Value | Requirement
 ------|--------------------------------------------------------
 2.0 | The subjective evaluation of your enhancement/additions
-
-## Compiling and Running Your Program
-To compile and run your program, use the following command:
-`gradle run -q --console=plain`
-
-_**Note:** The `-q` and `--console=plain` are to suppress the extra output that gradle normally prints when running a Java application._
 
 ## Submission Instructions
 Modify the Java classes as described in this document, and add any additional classes you decide you need to write to complete this lab assignment.  Commit and push your code to this repository.
